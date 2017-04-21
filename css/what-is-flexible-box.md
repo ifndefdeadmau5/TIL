@@ -1,18 +1,20 @@
-#Flexible boxes
+# Flexible boxes
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes#See_also
 
-##Flex 의 용어들
+## Flex 의 용어들
 
 flex-direction: row 일 때, 수평 축을 main axis 라 하고, 수직을 cross axis라 하며 이 때 cross start 가 위  쪽, cross end 가 아래 쪽이다.
 flex-direction: column일 때는 이와 반대다.
 flex box 내에서 각각 item들은 주축 방향에 따라 main size, cross size 로 불린다. 아래의 이미지 참고
+￼
+￼https://developer.mozilla.org/files/3739/flex_terms.png
 
-###Flex container
+### Flex container
 플렉스 아이템을 감싸는 부모
-###Flex item
+### Flex item
 플렉스 컨테이너 각각의 자식들, Flex container안에 생으로 텍스트를 넣을경우 익명의 Flex item으로 자동으로 감싸진다
 
-###Axes
+### Axes
 
 * The flex-direction property establishes the main axis.
     * main axis 를 설정한다
@@ -23,13 +25,13 @@ flex box 내에서 각각 item들은 주축 방향에 따라 main size, cross si
 * The align-self property defines how a single flex item is aligned on the cross axis, and overrides the default established by align-items.
     * flex item이 cross axis를 따라서 어떻게 정렬될지, align-items에 의해 정의된 기본값을 override 한다.
 
-###Lines
+### Lines
 
 Flex items can be laid out on either a single line or on several lines according to the flex-wrap property, which controls the direction of the cross axis and the direction in which new lines are stacked.
 
 플렉스 아이템은 cross axis 방향과 새로운 줄이 생겨날 방향을 제어하는 flex-wrap 속성에 따라 한 줄 또는 여러 줄로 놓여질 수 있습니다.
 
-###Dimensions
+### Dimensions
 
 The flex items' agnostic equivalents of height and width are main size and cross size, which respectively follow the main axis and cross axis of the flex container.
 
@@ -38,7 +40,7 @@ The flex items' agnostic equivalents of height and width are main size and cross
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes#Flex_Item_Considerations
 
-###Flexible Box Properties
+### Flexible Box Properties
 
 Properties not affecting flexible boxes Flex box에서 무시 되는 속성들
 
